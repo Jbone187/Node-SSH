@@ -1,2 +1,2 @@
 # Node SSH
-Access Multiply server via ssh Nodejs
+Access Multiply servers via ssh Nodejs
