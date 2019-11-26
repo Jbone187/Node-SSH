@@ -5,14 +5,14 @@ dotenv.config();
 ssh1 = new node_ssh();
 ssh2 = new node_ssh();
 
-let serverCred1 = {
+const serverCred1 = {
     host: process.env.host1,
     username: process.env.username1,
     password: process.env.password1,
     port: process.env.port1,
 };
 
-let serverCred2 = {
+const serverCred2 = {
     host: process.env.host2,
     username: process.env.username2,
     password: process.env.password2,
