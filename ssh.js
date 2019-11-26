@@ -2,8 +2,8 @@ const node_ssh = require('node-ssh');
 const dotenv = require("dotenv");
 dotenv.config();
 
-ssh1 = new node_ssh();
-ssh2 = new node_ssh();
+const ssh1 = new node_ssh();
+const ssh2 = new node_ssh();
 
 const serverCred1 = {
     host: process.env.host1,
